@@ -1,1 +1,3 @@
-compatibility_flags = [ "nodejs_compat", "streams_enable_constructors" ]
+kv_namespaces = [
+  { id = "MY_KV", binding="MY_KV" }
+]
