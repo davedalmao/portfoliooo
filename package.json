@@ -11,7 +11,7 @@
     "dev": "node ./scripts/dev.cjs && remix vite:dev",
     "start": "wrangler pages dev ./build/client",
     "postinstall": "node ./scripts/draco.cjs",
-    "deploy": "npm run build && wrangler pages deploy ./build/client --project-name portfoliooo"
+    "deploy": "npm run build && wrangler pages deploy ./build/client --project-name johndavedalmao"
   },
   "dependencies": {
     "@aws-sdk/client-ses": "^3.515.0",
